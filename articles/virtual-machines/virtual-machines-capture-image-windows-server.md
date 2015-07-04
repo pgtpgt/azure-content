@@ -18,6 +18,8 @@
 
 #How to Capture a Windows Virtual Machine to Use as a Template#
 
+  **WARNING: When you capture an image of a generalized virtual machine, the virtual machine is deleted.**
+
 This article shows you how to capture an Azure virtual machine running Windows so you can use it like a template to create other virtual machines. This template includes the OS disk and any data disks attached the virtual machine. It doesn't include networking configuration, so you'll need to configure that when you create the other virtual machines that use the template.
 
 Azure treats this template as an image and stores it under **My Images**. This is also where any images you've uploaded are stored. For more information about images, see [About Virtual Machine Images in Azure] [].
